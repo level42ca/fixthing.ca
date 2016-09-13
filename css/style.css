@@ -1,0 +1,251 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+*{
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+body{
+    background-color: #fff;
+	font-family: Montserrat, sans-serif;
+    margin: 0;
+}
+    
+a{
+    text-decoration: none;
+}
+
+header{
+    margin: 0;
+}
+
+#search-header{
+    color: #fff;
+    padding: 6em;
+    background-color: #4EBABA;
+    display: flex;
+    margin: auto;
+}
+
+#nav{
+    background-color: #FF6B6B;
+    display: block;
+    float: right;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF6B6B;
+}
+
+#nav li{
+    float:right;
+}
+
+#nav li a {
+    display: block;
+    color: #eee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a .active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#nav li a:hover{
+    background-color: #222;
+}
+/* Change the link color to #111 (black) on hover */
+
+
+
+
+/*
+
+SEARCH BAR
+
+*/
+
+/*Basic Styles*/
+/*Basic Styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation and List Items*/
+.nav {
+    /*background: #222;*/
+    height: 60px;
+    display: inline-block;
+	margin:auto;
+}
+ 
+.nav li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+/*Links*/
+.nav li p {
+    font-size: 40px;
+    color: white;
+    display: block;
+    line-height: 60px;
+    padding: 0 5px;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+/*Search Box*/
+#search {
+    width: 260px;
+    margin: 4px;
+}
+#search_text{
+    width: 200px;
+    padding: 15px 0 15px 5px;
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    height: 52px;
+    margin-right: 0;
+    color: white;
+    outline: none;
+    background: #222;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
+}
+#search_text:focus {
+    background: #FF6B6B;
+}
+#search_button {
+    border: 0 none;
+    background: #222 url(http://fixthing.ca/img/search.png) center no-repeat;
+    width: 60px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    height: 52px;
+    cursor: pointer;
+}
+/*
+
+END SEARCH BAR
+
+*/
+
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+	background-color: #fff;
+}
+
+#logo{
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 15em 0;
+    background-color: #fff;
+}
+
+#logo img{
+   display: flex;
+   width: 500px;
+   margin: auto;
+}
+
+#logo p{
+    text-align: center;
+    float:right;
+    padding-right: 100px;
+}
+
+/*.logo3d {
+    position:absolute;
+    top:0;
+    right:0;
+    font-size:8px;
+    color:#cccccc;
+}
+.logoText {
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+    color: #4EBABA;
+    text-shadow:0 1px 0 #ccc, 0 2px 0 #c9c9c9,0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}*/
+ /*Commented out by nigel*/
+
+#logo h1{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    /*font-family: 'Lakki Reddy', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Space Mono', monospace;*/
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 30px rgba(150, 150, 150, 1);
+    color: #4EBABA;
+    font-size: 5em;
+} /*Current logo styling*/
+
+#product-gallery{
+	width: 100%;
+	color: #222;
+	background-color: #fff;
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    justify-content: space-around;
+    padding: 6em 0 6em 0;
+    margin: auto;
+}
+#product-gallery .title{
+	position: absolute;
+}
+#product-gallery .items {
+    flex-direction: column;
+    text-align: center;
+	margin-top: 5%;
+}
+#product-gallery .items:hover{
+box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.5);
+}
+#testimonial-gallery{
+	width: 100%;
+	padding: 5% 0;
+	color: #222;
+	background-color: #4EBABA;
+	padding: 6em 0 6em 0;
+    margin: auto;
+	text-align: center;
+}
+footer {
+	color: #ccc;
+    background-color: #222;
+	text-align:center;
+	padding: 5%;
+}

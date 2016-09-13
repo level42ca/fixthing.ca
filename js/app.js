@@ -1,0 +1,1 @@
+$(".logo").hide().fadeIn(2500)
